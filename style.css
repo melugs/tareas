@@ -1,0 +1,43 @@
+*{
+    font-family: Comic Sans MS,Arial,Verdana;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    border: 1px solid black;
+    height: 200px;
+    background-size: contain;
+}
+
+h2{
+    border: 1px solid black;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    background-color: rgb(30, 202, 202);
+    border: 1px solid black;
+    width:100px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.445);
+    
+}
+nav{
+    position: absolute;
+    left: 70%;
+}
+
+.active{
+    background-color: rgb(58, 228, 24);
+}
+
+a:hover{
+    background-color: rgb(58, 228, 24);
+}
+
+
