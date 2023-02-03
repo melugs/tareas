@@ -1,43 +1,143 @@
 *{
-    font-family: Comic Sans MS,Arial,Verdana;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.contenedor{
-    border: 1px solid black;
-    height: 200px;
-    background-size: contain;
+header{
+    min-height: 10vh;
+    display: flex;
+    background-image: url(./assets/design2_image2.jpg);
+    background-position-y: 585px;
+}
+
+header img{
+    height: 100px;
+    align-items: center;
+}
+h1{
+    padding-left: 6rem;
+    padding-top: 0.5rem;
+    color: white;
+}
+
+.caja{
+    min-width: 300px;
+    height: 70px; 
 }
 
 h2{
-    border: 1px solid black;
     text-align: center;
+}
+
+nav{
+    min-height: 5vh;
+    background-color:rgb(193, 221, 212);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    
 }
 
 nav a{
+    width: 15rem;
     text-decoration: none;
     color:white;
-    background-color: rgb(30, 202, 202);
+    background-color: rgb(95, 119, 228);
     border: 1px solid black;
+    border-radius: 1rem;
     width:100px;
     text-align: center;
-    display: inline-block;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.445);
-    
-}
-nav{
-    position: absolute;
-    left: 70%;
+    font-weight: bolder;    
 }
 
+
 .active{
-    background-color: rgb(58, 228, 24);
+    background-color: rgb(200, 245, 190);
+    color: black;
 }
 
 a:hover{
-    background-color: rgb(58, 228, 24);
+    background-color: rgb(200, 245, 190);
+    color: black;
 }
 
+main{
+    background-color:rgb(193, 221, 212);
+    min-height: 85vh;
+
+}
+main img{
+    height: 100px;
+   
+}
+
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.contenedor2{
+    background-color: rgb(153, 172, 189);
+    width: 90%;
+    min-height: 40vh;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px black;
+}
+
+.parrafo{
+    text-align: center;
+}
+
+.contenedor3{
+    background-color: rgb(153, 172, 189);
+    width: 90%;
+    min-height: 40vh;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista{
+    list-style-type:lower-alpha;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+.parrafo2{
+    padding-left: 5rem;
+    font-style: italic;
+}
+
+.parrafo3{
+    padding-left: 5rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+table{
+    width: 100%;
+}
+
+.tabla1{
+    padding-left: 5rem;
+    width: 100%;
+    text-align: left;
+    
+}
 
