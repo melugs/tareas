@@ -130,9 +130,14 @@ ul{
     text-decoration: underline;
 }
 
-table{
+.tabla{
     width: 100%;
 }
+.tabla th, .tabla td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
 
 .tabla1{
     padding-left: 5rem;
@@ -141,3 +146,31 @@ table{
     
 }
 
+form{
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: 1rem;
+}
+
+fieldset{
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+label{
+    padding-left: 1rem;
+}
+
+legend{
+    padding-left: 1rem;
+    font-weight: bolder;
+}
+
+ form p{
+    padding-left: 1rem;
+}
+
+iframe{
+    height: 5rem;
+    
+}
